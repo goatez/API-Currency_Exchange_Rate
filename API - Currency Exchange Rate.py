@@ -4,10 +4,11 @@ import pandas as pd
 import os
 
 #check directory
-# os.getcwd()
+os.getcwd()
 
 # change directory to data if necessary
 # os.chdir('data')
+# check directory again
 # os.getcwd()
 
 # create dictionary of currency names: currency codes
