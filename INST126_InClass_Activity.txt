@@ -1,0 +1,41 @@
+INST126
+InClass Strings Activity
+
+Names:___________________________
+
+This is a pair programming task. Every 5 minutes switch between who is typing on the computer. Only one computer should be open with code. The second may only be used for referencing and web searches.
+Sit in the chair next to your parter.
+
+Take the strings_framework.py and the 20170405twitterdirty.txt files. 
+This is real data from a database that needs to be cleaned up. FYI it has been cleaned up as seen in cleaned_twitter.txt Make sure to read through all of the instructions so you take into account all variables and information that needs to be stored.
+
+
+Write a program by adding to the strings_framework.py that does the following. You may NOT modify 20170405twitterdirty.txt to clean your data. Cleaning must be done from the list created by the strings_framework.py file and your additions to that file.
+
+1. Makes all the strings lowercase.
+
+2. Removes any whitespace before or after the letters and numbers.
+
+3. Remove any strings staring with #. These are either comments or headers.
+
+4. Print out the list of any urls that include "map" or "zoo".
+
+5. Clean up each of the strings so that they all print with the valid url 
+of the twitter account. For example @wolfgang8741 would be come:
+https://twitter.com/wolfgang8741 Make sure you look over your data, there are 
+many types of issues to handle.
+
+6. Run a check over your list of urls and make sure they follow the format requested. Print out "All strings are correct" if all strings start with "https://twitter.com/".
+
+7. Print out the list in alphabetical order.
+
+8. Print out the total number of urls that are over the length of 20 character.
+
+9. Remove all duplicate strings. You can compare your output to cleaned_twitter.txt to see if you removed too many or too few strings.
+
+10. Print out the number of strings removed and the list of strings removed.
+
+11. Print out every other letter of every other string that is not a duplicate.
+
+Whatever your status is by 10 minutes before the end of class, upload your progress on these steps
+to ELMS for the participation credit for the day with your name and your partner.
