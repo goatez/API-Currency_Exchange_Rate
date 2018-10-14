@@ -3,12 +3,12 @@ import json
 import pandas as pd
 import os
 
-os.getcwd()
+#check directory
+# os.getcwd()
 
 # change directory to data if necessary
-os.chdir('data')
-os.getcwd()
-
+# os.chdir('data')
+# os.getcwd()
 
 # create dictionary of currency names: currency codes
 df = pd.read_csv("currency.csv") # read csv and save into pandas data frame
@@ -16,7 +16,6 @@ df = pd.read_csv("currency.csv") # read csv and save into pandas data frame
 currency = df.set_index('currency_name').transpose().to_dict(orient='index')
 currency = currency['currency_code']
 currency
-
 
 # Currency Exchange Rate
 api = 'https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE'  # api
